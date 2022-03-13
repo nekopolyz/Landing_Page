@@ -1,0 +1,55 @@
+.header{
+    background-color: #1f2937;
+
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.navbar ul{
+    display: flex;
+    gap: 1.5em;
+    list-style-type: none;
+    color: #f9faf8;
+
+}
+
+.navbar a{
+    color: #E5E7Eb;
+    text-decoration: none;
+}
+    
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}    
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title .title-left{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+p{
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+.title-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 200px;
+}
