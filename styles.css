@@ -1,17 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .header{
     background-color: #1f2937;
+    padding: 1em 8em;
+
 
 
 }
 .navbar{
     display: flex;
-    justify-content: space-around;
-
+    justify-content: center;
+    gap: 325px;
+    padding-bottom: 30px;
+    
 
 }
 .navbar ul{
     display: flex;
-    gap: 1.5em;
+    gap: 10px;
     list-style-type: none;
     color: #f9faf8;
 
@@ -33,12 +44,32 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px  220px;
+
 }
 
 .title .title-left{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    
+
    
+}
+
+
+.title .title-right{
+    flex-shrink: 0;
+    width: 400px;
+    
+}
+
+.image-right{
+    display: flex;
+    height: 215px;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
 }
 
 p{
@@ -46,10 +77,11 @@ p{
     color: #E5E7Eb;
 }
 
-.title-right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: gray;
-    height: 200px;
+
+button{
+    width: 110px;
+    height: 35px;
+    border-radius: 8px;
+    color: #E5E7Eb;
+    background-color: #3882F6;
 }
