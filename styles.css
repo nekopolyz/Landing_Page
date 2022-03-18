@@ -53,7 +53,6 @@ h1{
     flex-direction: column;
     gap: 10px;
     
-
    
 }
 
@@ -72,7 +71,7 @@ h1{
     justify-content: center;
 }
 
-p{
+.header-logo{
     font-size: 18px;
     color: #E5E7Eb;
 }
@@ -84,4 +83,100 @@ button{
     border-radius: 8px;
     color: #E5E7Eb;
     background-color: #3882F6;
+}
+
+
+/* Info */
+
+.info{
+    text-align: center;
+    padding: 50px;
+}
+h2{
+    
+    margin-bottom: 52px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    
+  
+}
+
+.square{
+
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+    outline: 5px solid #3882F6;
+    margin-bottom: 10px;
+ 
+    
+}
+
+.flex-wrap {
+    max-width: 150px;
+  }
+
+  .text{
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  .quote{
+      background-color: #E5E7Eb;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 100px 330px;
+
+
+      
+  }
+
+
+  .quote em{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+    
+  }
+  .quote p{
+      align-self: flex-end;
+      font-size: 18px;
+
+  }
+
+/* Sign-up */
+
+.sign-up{
+    padding: 100px 100px;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 10px;
+    
+
+}
+
+.modal-left p{
+    color: #f9faf8;
+    font-size: 18px;
+}
+.modal-button {
+    width: 110px;
+    height: 35px;
+    border-radius: 8px;
+    color: #E5E7Eb;
+    background-color: #3882F6;
+    border-color: #E5E7Eb;
+    border: 2px solid;
 }
