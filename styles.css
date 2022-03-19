@@ -153,7 +153,7 @@ h2{
 /* Sign-up */
 
 .sign-up{
-    padding: 100px 100px;
+    padding: 100px 250px;
 }
 
 .modal {
@@ -163,7 +163,6 @@ h2{
     background-color: #3882F6;
     padding: 50px 100px;
     border-radius: 10px;
-    
 
 }
 
@@ -179,4 +178,14 @@ h2{
     background-color: #3882F6;
     border-color: #E5E7Eb;
     border: 2px solid;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+    align-items: center;
 }
